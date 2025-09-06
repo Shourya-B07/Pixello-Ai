@@ -304,7 +304,7 @@ const Editor = () => {
   const handleExport = (format: string) => {
     if (!processedImage) return;
 
-    saveAs(processedImage, `pixello-${Date.now()}.${format}`);
+    saveAs(processedImage, `pixora-${Date.now()}.${format}`);
   };
 
   return (

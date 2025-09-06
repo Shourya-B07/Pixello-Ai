@@ -77,7 +77,7 @@ const UploadZone = ({ onImageUpload }: UploadZoneProps) => {
       const result = await upload({
         file,
         fileName: file?.name,
-        folder: "pixello-uploads",
+        folder: "pixora-uploads",
         expire,
         token,
         signature,
